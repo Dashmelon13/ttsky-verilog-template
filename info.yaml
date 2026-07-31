@@ -23,25 +23,25 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
-  # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  #Inputs
+  ui[0]: "INSTR_0"
+  ui[1]: "INSTR_1"
+  ui[2]: "INSTR_2"
+  ui[3]: "INSTR_3"
+  ui[4]: "INSTR_4"
+  ui[5]: "INSTR_5"
+  ui[6]: "INSTR_6"
+  ui[7]: "INSTR_7"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "ALU_OUT_0"
+  uo[1]: "ALU_OUT_1"
+  uo[2]: "ALU_OUT_2"
+  uo[3]: "ALU_OUT_3"
+  uo[4]: "PC_0"
+  uo[5]: "PC_1"
+  uo[6]: "PC_2"
+  uo[7]: "PC_3"
 
   # Bidirectional pins
   uio[0]: ""
